@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Cursos - Box</title>
+    <link rel="stylesheet" href="css/listado_box.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <button class="menu-icon" onclick="toggleAside()">&#9776;</button>
+        <img src="./imagenes/logo.png" alt="Logo" class="logo">
+        <div class="title">Cursos - Box</div>
+        <!-- 
+            <div class="dropdown">
+            <img src="./imagenes/user_perfile-removebg-preview.png" alt="Dropdown Logo" class="dropdown-icon">
+            <div class="dropdown-content">
+                <a href="#" id="dropdown-button">Botón de Despliegue</a>
+            </div>
+        </div>
+        -->
+
+    </header>
+
+    <aside id="menuAside">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="listado_tabla.html">CursosT</a></li>
+            <li><a href="listado_box.html">CursosB</a></li>
+            <li><a href="curso.html">Contáctenos</a></li>
+        </ul>
+    </aside>
+
+    <div class="separator"></div>
+
+    <div class="container"> 
+
+        <article class="presentacion">
+            <a href="curso.html">
+                <img src="./imagenes/ministerial_1.jpg" alt="Descripción de la imagen" class="imagen">
+                <div class="descripcion">
+                    <h2>Iglesia de Dios</h2>
+                    <p>Somos un centro de restauración para personas :) los esperamos!!!</p>
+                </div>
+            </a>
+        </article>
+        
+
+
+        <article class="presentacion">
+            <img src="./imagenes/mi_nueva_vida_en_cristo.jpg" alt="Descripción de la imagen" class="imagen">
+            <div class="descripcion">
+                <h2>Iglesia de Dios</h2>
+                <p>Somos un centro de restauración para personas :) los esperamos!!!</p>
+            </div>
+        </article>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

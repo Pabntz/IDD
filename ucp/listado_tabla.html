@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Cursos - Tabla</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/listado_tabla.css">
+</head>
+<body>
+    <header>
+        <button class="menu-icon" onclick="toggleAside()">&#9776;</button>
+        <img src="./imagenes/logo.png" alt="Logo" class="logo">
+        <div class="title">Cursos - Tabla </div>
+        <!--
+        <div class="dropdown">
+            <img src="./imagenes/user_perfile-removebg-preview.png" alt="Dropdown Logo" class="dropdown-icon">
+            <div class="dropdown-content">
+                <a href="#" id="dropdown-button">Botón de Despliegue</a>
+            </div>
+        </div>
+          -->
+    </header>
+
+    <aside id="menuAside">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="listado_tabla.html">CursosT</a></li>
+            <li><a href="listado_box.html">CursosB</a></li>
+            <li><a href="curso.html">Contáctenos</a></li>
+
+        </ul>
+    </aside>
+
+    <div class="separator"></div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del Curso</th>
+                <th>Descripción</th>
+                <th>Duración</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mi nueva vida en Cristo</td>
+                <td>Este curso es introductorio a nuestra nueva manera de vivir</td>
+                <td>10 horas</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Ministerial1</td>
+                <td>Aquí nos adentramos más en la doctrina de nuestra iglesia</td>
+                <td>8 horas</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Ministerial</td>
+                <td>En este curso desglozaremos a fondo todos los ministerios</td>
+                <td>16 horas</td>
+                <td>Gratis</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
